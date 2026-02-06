@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diskentulho - Aluguel de Caçambas em Divinópolis</title>
+    <meta name="description" content="Aluguel de Caçambas em Divinópolis. Entrega rápida, descarte legalizado e preço justo. Caçambas de 5m³ e 5,7m³." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                yellow: '#FFC107', // Slightly more golden/amber to match the reference
+                dark: '#1a1a1a',   // Very dark gray/black
+                gray: '#2D2D2D',
+                green: '#25D366',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            backgroundImage: {
+              'hazard-stripe': "repeating-linear-gradient(45deg, #000, #000 10px, #FFC107 10px, #FFC107 20px)",
+              'hazard-stripe-sm': "repeating-linear-gradient(45deg, #000, #000 5px, #FFC107 5px, #FFC107 10px)",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .hazard-stripe {
+        background: repeating-linear-gradient(
+          45deg,
+          #000,
+          #000 10px,
+          #FFC107 10px,
+          #FFC107 20px
+        );
+      }
+      /* Custom shape for the Stats image container */
+      .blob-shape {
+        border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
