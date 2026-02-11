@@ -12,7 +12,8 @@ const Hero: React.FC = () => {
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0">
         <picture>
-          <source media="(min-width: 768px)" srcSet="/desktop.webp" />
+          {/* Adicionando um timestamp para forçar atualização do cache se necessário, mas o principal é garantir que o nome esteja correto */}
+          <source media="(min-width: 768px)" srcSet="/bg-desktop.webp" />
           <img 
             src="/mobile1.webp" 
             alt="Canteiro de obras organizado com caçamba" 
