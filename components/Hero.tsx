@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             src="/mobile1.webp" 
             alt="Canteiro de obras organizado com caçamba" 
             // Posiciona para mostrar pessoas da cintura pra cima (top = topo da imagem)
-            className="w-full h-full object-cover object-[center_bottom] md:object-[center_85%]" 
+            className="w-full h-full object-cover object-[center_bottom] md:object-[center_80%]" 
           />
         </picture>
         
@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/90 via-brand-dark/40 to-transparent"></div>
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 pt-32 md:pt-40 text-center">
+      <div className="relative z-10 container mx-auto px-4 pt-32 md:pt-32 text-center">
         
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 rounded-full border border-brand-yellow/30 bg-white/5 backdrop-blur-md shadow-lg">
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
         
         {/* Buttons - CTA */}
         {/* Mobile: Espaçamento reduzido (mb-12) para aproximar os cards */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 md:mb-48 lg:mb-64">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 md:mb-32 lg:mb-44">
           <a 
             href={whatsappLink}
             target="_blank"
