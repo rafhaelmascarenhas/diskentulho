@@ -11,7 +11,12 @@ const Models: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-black text-brand-dark mb-3">
             Nossas <span className="text-brand-yellow">Caçambas</span>
           </h2>
-          <p className="text-gray-500">Dois tamanhos para atender sua obra. Veja como se encaixar melhor no seu projeto.</p>
+          <div className="text-gray-500 max-w-2xl mx-auto space-y-2">
+            <p>Aluguel de caçambas de 5m³ e 5,7m³. Entregamos e retiramos rigorosamente no prazo.</p>
+            <p className="text-sm bg-yellow-50 text-yellow-800 py-1 px-3 rounded-full inline-block">
+              <span className="font-bold">Atenção:</span> Atualmente pedimos um prazo de até 4 dias para a retirada da caçamba.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -93,38 +98,38 @@ const Models: React.FC = () => {
             <h3 className="text-center text-xl font-bold text-brand-dark mb-6">Caçamba 5,7 metros cúbicos</h3>
             
             <div className="space-y-3 mb-8 flex-grow">
-              <p className="text-sm text-gray-500 text-center mb-4">Para reformas completas, demolições e obras maiores.</p>
+              <p className="text-sm text-gray-500 text-center mb-4">Ideal para quem precisa de uma margem extra de segurança no volume.</p>
               
               <div className="flex items-center gap-3 text-sm text-gray-700">
                 <div className="min-w-5 min-h-5 rounded-full bg-brand-yellow/20 flex items-center justify-center">
                    <Check className="w-3 h-3 text-brand-dark" />
                 </div>
-                <span>Cabe o entulho de 2+ cômodos</span>
+                <span>Capacidade levemente superior (12%+)</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-700">
                 <div className="min-w-5 min-h-5 rounded-full bg-brand-yellow/20 flex items-center justify-center">
                    <Check className="w-3 h-3 text-brand-dark" />
                 </div>
-                <span>Reforma completa do apartamento</span>
+                <span>Margem de segurança para sua obra</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-700">
                 <div className="min-w-5 min-h-5 rounded-full bg-brand-yellow/20 flex items-center justify-center">
                    <Check className="w-3 h-3 text-brand-dark" />
                 </div>
-                <span>Demolição de paredes e pisos</span>
+                <span>Evita precisar de uma 2ª caçamba por pouco</span>
               </div>
                <div className="flex items-center gap-3 text-sm text-gray-700">
                 <div className="min-w-5 min-h-5 rounded-full bg-brand-yellow/20 flex items-center justify-center">
                    <Check className="w-3 h-3 text-brand-dark" />
                 </div>
-                <span>Construções e ampliações</span>
+                <span>Obras com volume incerto</span>
               </div>
             </div>
 
             <div className="bg-gray-100 rounded-lg p-4 mb-6 flex gap-3 items-start">
                <Lightbulb className="w-5 h-5 text-brand-yellow flex-shrink-0 mt-0.5" />
                <p className="text-xs text-gray-600 leading-relaxed">
-                 <span className="font-bold">Dica:</span> Escolha certa para: reforma completa, demolição ou construção.
+                 <span className="font-bold">Dica:</span> A escolha certa para não correr riscos de faltar espaço.
                </p>
             </div>
 
