@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
         
         {/* Subhead */}
         <p className="text-gray-100 text-lg md:text-xl mb-8 max-w-2xl mx-auto font-medium leading-relaxed drop-shadow-lg text-shadow">
-          Aluguel de caçambas de <strong>5m³</strong> e <strong>5,7m³</strong>. Entregamos e retiramos rigorosamente no prazo.
+          Aluguel de caçambas para obras e reformas. Entrega rápida e retirada programada com responsabilidade e compromisso.
         </p>
         
         {/* Buttons - CTA */}

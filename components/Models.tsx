@@ -12,10 +12,10 @@ const Models: React.FC = () => {
             Nossas <span className="text-brand-yellow">Caçambas</span>
           </h2>
           <div className="text-gray-500 max-w-2xl mx-auto space-y-2">
-            <p>Aluguel de caçambas de 5m³ e 5,7m³. Entregamos e retiramos rigorosamente no prazo.</p>
-            <p className="text-sm bg-yellow-50 text-yellow-800 py-1 px-3 rounded-full inline-block">
-              <span className="font-bold">Atenção:</span> Atualmente pedimos um prazo de até 4 dias para a retirada da caçamba.
-            </p>
+            <p>Aluguel de caçambas para obras e reformas. Entrega rápida e retirada programada com responsabilidade e compromisso.</p>
+            <div className="text-sm bg-yellow-50 text-yellow-800 py-2 px-4 rounded-xl inline-block max-w-xl">
+              <p className="mb-1"><span className="font-bold">Atenção:</span> Atualmente pedimos um prazo de até 4 dias para a retirada da caçamba.</p>
+            </div>
           </div>
         </div>
 
@@ -23,12 +23,12 @@ const Models: React.FC = () => {
           {/* Card 5m3 */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 flex flex-col relative overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="flex justify-center mb-6">
-              <div className="w-24 h-24 rounded-full bg-brand-dark border-4 border-brand-yellow flex items-center justify-center text-white font-black text-2xl shadow-lg">
-                5m³
+              <div className="w-24 h-24 rounded-full bg-brand-dark border-4 border-brand-yellow flex items-center justify-center text-white font-black text-xs shadow-lg uppercase tracking-wider">
+                Padrão
               </div>
             </div>
             
-            <h3 className="text-center text-xl font-bold text-brand-dark mb-6">Caçamba 5 metros cúbicos</h3>
+            <h3 className="text-center text-xl font-bold text-brand-dark mb-6">Caçamba Padrão</h3>
             
             <div className="space-y-3 mb-8 flex-grow">
               <p className="text-sm text-gray-500 text-center mb-4">Ideal para reformas de banheiro, cozinha ou limpezas residenciais.</p>
@@ -90,12 +90,12 @@ const Models: React.FC = () => {
             </div>
 
             <div className="flex justify-center mb-6">
-              <div className="w-24 h-24 rounded-full bg-brand-dark border-4 border-brand-yellow flex items-center justify-center text-white font-black text-2xl shadow-lg">
-                5,7 m³
+              <div className="w-24 h-24 rounded-full bg-brand-dark border-4 border-brand-yellow flex items-center justify-center text-white font-black text-xs shadow-lg uppercase tracking-wider">
+                Max
               </div>
             </div>
             
-            <h3 className="text-center text-xl font-bold text-brand-dark mb-6">Caçamba 5,7 metros cúbicos</h3>
+            <h3 className="text-center text-xl font-bold text-brand-dark mb-6">Caçamba Max</h3>
             
             <div className="space-y-3 mb-8 flex-grow">
               <p className="text-sm text-gray-500 text-center mb-4">Ideal para quem precisa de uma margem extra de segurança no volume.</p>
