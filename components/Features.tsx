@@ -56,7 +56,7 @@ const Features: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
-            Por que escolher um <span className="text-brand-yellow">Diskentulho</span> ?
+            Por que escolher a <span className="text-brand-yellow">Diskentulho</span>?
           </h2>
           <div className="w-24 h-1 bg-brand-yellow mx-auto rounded-full"></div>
         </div>
