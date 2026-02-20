@@ -68,10 +68,6 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-600">
           <p>&copy; 2026 Diskentulho. Todos os direitos reservados.</p>
-          <div className="flex items-center gap-2">
-            <span>Editar com</span>
-            <span className="font-bold text-gray-500">Lovable</span>
-          </div>
         </div>
       </div>
     </footer>

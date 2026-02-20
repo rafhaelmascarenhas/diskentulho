@@ -32,7 +32,7 @@ const Models: React.FC = () => {
               </div>
             </div>
             
-            <h3 className="text-center text-xl font-bold text-brand-dark mb-6">Nossas Caçambas</h3>
+            <h3 className="text-center text-xl font-bold text-brand-dark mb-6"></h3>
             
             <div className="space-y-3 mb-8 flex-grow">
               <p className="text-sm text-gray-500 text-center mb-4">Volume ideal para a maioria das reformas residenciais e comerciais.</p>
@@ -92,6 +92,67 @@ const Models: React.FC = () => {
            <span className="text-brand-yellow text-lg">⚡</span>
            <span><strong>Preço sob consulta.</strong> Chame no WhatsApp e informe sua região para orçamento.</span>
         </div>
+
+        {/* Section Institucional / Video */}
+        <div className="mt-24">
+          <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="grid md:grid-cols-2">
+              
+              {/* Content Side */}
+              <div className="p-8 md:p-12 flex flex-col justify-center order-2 md:order-1">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-50 text-yellow-700 text-xs font-bold uppercase tracking-wider w-fit mb-6">
+                  <span className="w-2 h-2 rounded-full bg-brand-yellow"></span>
+                  Institucional
+                </div>
+                
+                <h3 className="text-3xl md:text-4xl font-black text-brand-dark mb-6">
+                  Diskentulho <span className="text-gray-300">|</span> Divinópolis
+                </h3>
+                
+                <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
+                  <p>
+                    Fundada em Divinópolis/MG, a Diskentulho atua há mais de <span className="font-bold text-brand-dark bg-yellow-100 px-1 rounded">32 anos</span>.
+                  </p>
+                  <p>
+                    Nosso objetivo é oferecer as melhores soluções em locação de caçambas estacionárias, priorizando a <strong className="text-brand-dark">segurança</strong>, <strong className="text-brand-dark">qualidade</strong> e <strong className="text-brand-dark">eficiência</strong> na prestação dos serviços.
+                  </p>
+                </div>
+
+                <div className="mt-8 pt-8 border-t border-gray-100 flex items-center gap-8">
+                   <div className="flex flex-col">
+                      <span className="text-3xl font-black text-brand-dark">32<span className="text-brand-yellow">+</span></span>
+                      <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">Anos de Mercado</span>
+                   </div>
+                   <div className="w-px h-10 bg-gray-200"></div>
+                   <div className="flex flex-col">
+                      <span className="text-3xl font-black text-brand-dark">100<span className="text-brand-yellow">%</span></span>
+                      <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">Legalizado</span>
+                   </div>
+                </div>
+              </div>
+
+              {/* Video Side */}
+              <div className="relative bg-brand-dark flex items-center justify-center p-8 md:p-12 order-1 md:order-2">
+                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#fbbf24 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
+                
+                <div className="relative w-full max-w-[320px] rounded-lg overflow-hidden shadow-2xl border border-white/20">
+                     <div className="aspect-[9/16]">
+                      <video 
+                        className="w-full h-full object-cover"
+                        controls
+                        playsInline
+                      >
+                        <source src="/videodiskentulho.mp4" type="video/mp4" />
+                        Seu navegador não suporta o elemento de vídeo.
+                      </video>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );
