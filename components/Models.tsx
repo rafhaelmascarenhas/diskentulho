@@ -111,7 +111,7 @@ const Models: React.FC = () => {
                 
                 <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                   <p>
-                    Fundada em Divinópolis/MG, a Diskentulho atua há mais de <span className="font-bold text-brand-dark bg-yellow-100 px-1 rounded">32 anos</span>.
+                    Fundada em Divinópolis/MG, a Diskentulho atua há mais de <span className="font-bold text-brand-dark bg-yellow-100 px-1 rounded">34 anos</span>.
                   </p>
                   <p>
                     Nosso objetivo é oferecer as melhores soluções em locação de caçambas estacionárias, priorizando a <strong className="text-brand-dark">segurança</strong>, <strong className="text-brand-dark">qualidade</strong> e <strong className="text-brand-dark">eficiência</strong> na prestação dos serviços.
@@ -120,7 +120,7 @@ const Models: React.FC = () => {
 
                 <div className="mt-8 pt-8 border-t border-gray-100 flex items-center gap-8">
                    <div className="flex flex-col">
-                      <span className="text-3xl font-black text-brand-dark">32<span className="text-brand-yellow">+</span></span>
+                      <span className="text-3xl font-black text-brand-dark">34<span className="text-brand-yellow">+</span></span>
                       <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">Anos de Mercado</span>
                    </div>
                    <div className="w-px h-10 bg-gray-200"></div>
