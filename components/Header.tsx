@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Otimização de link do WhatsApp para mobile e desktop
-  const phoneNumber = "5537998136323";
+  const phoneNumber = "32222223";
   const message = encodeURIComponent("Olá! Preciso de uma caçamba. Poderia me passar os valores?");
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
 
