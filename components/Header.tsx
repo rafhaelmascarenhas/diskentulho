@@ -52,10 +52,7 @@ const Header: React.FC = () => {
             {/* CTA Buttons Group */}
             <div className="flex items-center gap-4">
               {/* Phone Number (Hidden on mobile) */}
-              <a href={`tel:${phoneNumber}`} className="hidden xl:flex items-center gap-2 text-white hover:text-brand-yellow transition-colors font-bold text-sm">
-                <Phone size={16} className="text-brand-yellow" />
-                (37) 99813-6323
-              </a>
+              
 
               {/* WhatsApp Button */}
               <a 
