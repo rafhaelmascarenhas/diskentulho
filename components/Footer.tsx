@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                <span className="text-xl font-bold text-brand-yellow tracking-wider">DISKENTULHO</span>
             </div>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-              Caçamba entregue e retirada no prazo. Sem dor de cabeça na sua obra.
+              Caçamba de entulho entregue e retirada no prazo. Sem dor de cabeça na sua obra.
             </p>
             <div className="flex gap-4">
               <a href="https://www.instagram.com/diskentulhocacambas/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-yellow hover:text-brand-dark transition-colors">
@@ -26,8 +26,8 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-6">Links Rápidos</h4>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-brand-yellow transition-colors">Não se trata de uma questão de...</a></li>
-              <li><a href="#modelos" className="hover:text-brand-yellow transition-colors">Caçambas</a></li>
+              <li><a href="#" className="hover:text-brand-yellow transition-colors">Melhores Caçambas da Região</a></li>
+              <li><a href="#modelos" className="hover:text-brand-yellow transition-colors">Caçambas de Entulho</a></li>
               <li><a href="#por-que-nos" className="hover:text-brand-yellow transition-colors">Diferenciais</a></li>
               <li><a href="#como-funciona" className="hover:text-brand-yellow transition-colors">Como funciona</a></li>
             </ul>
@@ -37,8 +37,6 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-6">Serviços</h4>
              <ul className="space-y-3 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-brand-yellow transition-colors">Locação de Caçamba 5m³</a></li>
-              <li><a href="#" className="hover:text-brand-yellow transition-colors">Locação de Caçamba 5,7m³</a></li>
               <li><a href="#" className="hover:text-brand-yellow transition-colors">Coleta de Entulho</a></li>
               <li><a href="#" className="hover:text-brand-yellow transition-colors">Descarte Legal</a></li>
               <li><a href="#" className="hover:text-brand-yellow transition-colors">Atendimento Residencial</a></li>

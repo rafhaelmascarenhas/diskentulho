@@ -23,7 +23,7 @@ const Models: React.FC = () => {
           {/* Card Único */}
           <div className="bg-white rounded-2xl shadow-lg border-2 border-brand-yellow p-8 flex flex-col relative overflow-hidden">
              <div className="absolute top-0 right-0 bg-brand-yellow text-brand-dark text-xs font-bold px-4 py-1 rounded-bl-lg uppercase tracking-wider">
-              Ideal para sua Obra
+              Caçamba ideal para sua Obra
             </div>
 
             <div className="flex justify-center mb-6">
@@ -111,7 +111,7 @@ const Models: React.FC = () => {
                 
                 <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                   <p>
-                    Fundada em Divinópolis/MG, a Diskentulho atua há mais de <span className="font-bold text-brand-dark bg-yellow-100 px-1 rounded">34 anos</span>.
+                    Fundada em Divinópolis/MG, a Diskentulho atua há mais de <span className="font-bold text-brand-dark bg-yellow-100 px-1 rounded">34 anos com caçambas de entulho</span>.
                   </p>
                   <p>
                     Nosso objetivo é oferecer as melhores soluções em locação de caçambas estacionárias, priorizando a <strong className="text-brand-dark">segurança</strong>, <strong className="text-brand-dark">qualidade</strong> e <strong className="text-brand-dark">eficiência</strong> na prestação dos serviços.
