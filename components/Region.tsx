@@ -21,7 +21,7 @@ const Region: React.FC = () => {
           href="https://api.whatsapp.com/send/?phone=5537998136323&text=Ol%C3%A1%2C+preciso+de+uma+ca%C3%A7amba+para+obra%2Freforma.+Pode+me+ajudar%3F&type=phone_number&app_absent=0"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-brand-yellow hover:bg-[#ffcd29] text-brand-dark font-bold py-3 px-8 rounded shadow transition-colors"
+          className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded shadow transition-colors"
         >
           <MessageCircle className="w-5 h-5" />
           Consultar atendimento no WhatsApp
