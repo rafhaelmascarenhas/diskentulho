@@ -2,7 +2,7 @@ import React from 'react';
 import { Check, Lightbulb } from 'lucide-react';
 
 const Models: React.FC = () => {
-  const whatsappLink = "https://api.whatsapp.com/send/?phone=5537998136323&text=Ol%C3%A1%2C+preciso+de+uma+ca%C3%A7amba+para+obra%2Freforma.+Pode+me+ajudar%3F&type=phone_number&app_absent=0";
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=553732214333&text=Ol%C3%A1%2C+preciso+de+uma+ca%C3%A7amba+para+obra%2Freforma.+Pode+me+ajudar%3F&type=phone_number&app_absent=0";
 
   return (
     <section id="modelos" className="py-24 bg-gray-50">

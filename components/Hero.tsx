@@ -3,7 +3,7 @@ import { ArrowDown, Timer, DollarSign, UserCheck } from 'lucide-react';
 
 const Hero: React.FC = () => {
   // Configuração profissional do Link do WhatsApp
-  const phoneNumber = "5537998136323";
+  const phoneNumber = "553732214333";
   const message = encodeURIComponent("Olá! Preciso de uma caçamba para minha obra. Gostaria de saber os valores e disponibilidade.");
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
 
